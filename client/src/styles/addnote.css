@@ -1,0 +1,93 @@
+* {
+  font-family: sans-serif;
+}
+.main1 {
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 10px;
+  /* background-color: azure; */
+}
+.Add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  padding: 30px;
+  width: 32%;
+  border-radius: 17px;
+  /* background-color: rgb(214, 238, 241); */
+  background-image: linear-gradient(289deg, #3d47f7 10%, #a3a7eb 100%);
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 10px;
+}
+
+.Add-form > .textInput > input {
+  padding-inline: 49px;
+  padding-block: 14px;
+  border-radius: 4px;
+  outline: none;
+  /* width: 100%; */
+  border: 2px solid rgb(216, 215, 215);
+  /* box-shadow: rgba(0, 0, 0, 0.15) 3px 2.95px 7.6px; */
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.Add-form > .textInput > input::placeholder {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.Add-form > .textArea > textarea {
+  padding-inline: 58px;
+  padding-block: 28px;
+  border-radius: 4px;
+  box-shadow: rgb(67 71 85 / 27%) 0px 0px 0.25em,
+    rgb(90 125 188 / 5%) 0px 0.25em 1em;
+  outline: none;
+}
+.Add-form > .file > input {
+  /* border: 2px solid; */
+  transform: translateX(20px);
+  width: 90%;
+}
+.Add-form > .file > input::-webkit-file-upload-button {
+  background-image: linear-gradient(-45deg, #cbe9ef, #4bb4e7, #0365ff);
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding-inline: 19px;
+  padding-block: 7px;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid rgb(169, 247, 133);
+}
+.Add-form > button {
+  width: 70%;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.8rem;
+  /* background-image: linear-gradient(-45deg, #cbe9ef, #4bb4e7, #0365ff); */
+  /* color: aliceblue; */
+  cursor: pointer;
+  transition: all;
+  transition-duration: 3ms;
+  transition-timing-function: ease-in;
+}
+.Add-form > button:hover {
+  background-image: linear-gradient(-45deg, #cbe9ef, #4bb4e7, #0365ff);
+  color: aliceblue;
+  cursor: pointer;
+}

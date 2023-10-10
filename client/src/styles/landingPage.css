@@ -1,0 +1,433 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+body {
+  height: 100%;
+  overflow: auto;
+}
+.nav {
+  /* border-bottom: 2px solid rgb(0, 0, 0); */
+  box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+  padding: 20px;
+  /* width: 100vw; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav > h2 > span {
+  color: rgb(72, 72, 236);
+}
+
+.nav > .header-list > ul {
+  display: flex;
+  /* border: 2px solid; */
+  justify-content: end;
+  height: 90%;
+  align-items: center;
+  column-gap: 70px;
+}
+.nav > .header-list > ul > li {
+  font-weight: bolder;
+}
+.nav > .header-list > ul > li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: rgb(72, 72, 236);
+}
+.nav > .header-list > ul > a > li {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+/* Navbar End */
+
+/* section 2 start */
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.section2 > .box {
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 98%;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  padding: 26px;
+  border-radius: 10px;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+.section2 > .box > .header > h1 {
+  position: relative;
+  text-align: center;
+  right: 320px;
+  top: 49px;
+  color: black;
+  /* border: 2px solid; */
+  font-size: 2.9rem;
+}
+.section2 > .box > .header > h1::after {
+  content: "";
+  border: 2px solid #1167bd84;
+  border-radius: 5px;
+  width: 70%;
+  position: absolute;
+  top: 39px;
+  right: 50px;
+  margin-top: 20px;
+}
+.section2 > .box > .header > h1 > span {
+  color: rgb(72, 72, 236);
+}
+.section2 > .box > .main {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  column-gap: 30px;
+  margin-top: 10px;
+  /* border:  2px solid ; */
+}
+.box > .main > .img {
+  width: 34%;
+  background: white;
+}
+.box > .main > .img > img {
+  /* border: 2px solid; */
+  border-radius: 10px;
+  width: 100%;
+  /* transform: rotateY(-170deg); */
+}
+.box > .main > .text {
+  /* border: 2px solid; */
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box > .main > .text > p {
+  text-align: start;
+  font-size: 1.8rem;
+  /* font-style: italic; */
+  line-height: 40px;
+  color: rgb(74, 56, 133);
+  font-weight: 500;
+  /* text-shadow: 2px 2px 4px #000000; */
+  /* text-shadow: 1px 1px 2px black, 0 0 5px blue, 0 0 6px darkblue; */
+}
+/* section 2 end */
+
+/* section 3 start */
+.section3 {
+  /* border: 2px solid green; */
+  /* padding-block: 30px; */
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.section3 > .img {
+  width: 40%;
+  background: white;
+}
+.section3 > .img > img {
+  /* border: 2px solid; */
+  width: 100%;
+  transform: rotateY(-170deg);
+}
+.card {
+  /* border: 2px solid; */
+  padding-block: 20px;
+  width: 50%;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
+}
+.card > .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  position: relative;
+}
+
+.card > .header > span {
+  color: rgb(72, 72, 236);
+  font-size: 1.7rem;
+  word-spacing: 7px;
+  font-style: italic;
+}
+
+.card > .header::after {
+  content: "";
+  border: 2px solid #597ea3;
+  border-radius: 5px;
+  width: 50%;
+  top: 37px;
+  /* display: block; */
+  position: absolute;
+}
+.card > .text {
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: center;
+  padding-block: 20px;
+  font-size: 1.4rem;
+}
+.card > .text > p {
+  /* border: 2px solid; */
+  width: 80%;
+  font-size: 1.7rem;
+  /* display: flex; */
+  text-align: center;
+  padding: 10px;
+}
+
+/* section 3 end */
+
+/* section 4 start */
+
+.section4 > h2 {
+  text-align: center;
+  font-size: 2.7rem;
+}
+.section4 > .allcards {
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 30px;
+  padding-block: 37px;
+}
+.section4 > .allcards > .firstBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 60px;
+}
+.section4 > .allcards > .secondBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 60px;
+}
+.section4 > .allcards > .firstBlock > .card1 {
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section4 > .allcards > .secondBlock > .card1 {
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4 > .allcards > .card1 > h4 {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.section4 > .allcards > .card1 > h4:hover {
+  cursor: pointer;
+}
+/* <!-- HTML !-->
+<button class="button-29" role="button">Button 29</button> */
+
+/* CSS */
+.section4 > .allcards > .firstBlock > .card1 > h4 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 58px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 25px;
+}
+.section4 > .allcards > .secondBlock > .card1 > h4 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #5adaff 0,
+    #5468ff 100%
+  );
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 58px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 25px;
+}
+
+.section4 > .allcards > .firstBlock > .card1 > h4:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+.section4 > .allcards > .secondBlock > .card1 > h4:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+.section4 > .allcards > .firstBlock > .card1 > h4:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+.section4 > .allcards > .secondBlock > .card1 > h4:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.section4 > .allcards > .firstBlock > .card1 > h4:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.section4 > .allcards > .secondBlock > .card1 > h4:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.section4 > .allcards > .firstBlock > .card1 > p {
+  text-align: center;
+}
+.section4 > .allcards > .secondBlock > .card1 > p {
+  text-align: center;
+}
+/* section 4 end */
+
+/* footer start */
+
+footer {
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 70px;
+  /* margin-bottom: 10px; */
+  padding: 20px;
+  background-color: rgb(119, 119, 254);
+  color: #ffffff;
+  padding: 19px;
+}
+footer > ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 17px;
+}
+
+footer > ul > li {
+  text-align: center;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+footer > ul:last-child {
+  /* border: 2px solid; */
+  width: 20%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+footer > ul > li > a {
+  color: #f1cfcf;
+}
+footer > .copyRights {
+  /* border: 2px solid yellow; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+footer > .copyRights > p {
+  width: 100%;
+  /* border: 2px solid; */
+  padding: 30px;
+}
+footer > .copyRights > .span {
+  /* border: 2px solid rgb(12, 0, 22); */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  font-size: 1.2rem;
+  padding-inline: 30px;
+}
+footer > .copyRights > ul {
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  column-gap: 13px;
+  font-size: 1rem;
+  padding-inline: 30px;
+}

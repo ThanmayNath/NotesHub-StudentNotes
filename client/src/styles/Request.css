@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.con {
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 53%;
+  border-radius: 20px;
+}
+.form > h1 {
+  color: black;
+  text-align: center;
+}
+.Req-form {
+  display: flex;
+  margin-block: 10px;
+  align-items: center;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: rgba(15, 95, 187, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  background-image: linear-gradient(135deg, #333dfa 10%, #7a7fdd 100%);
+}
+.Req-form > input {
+  flex: 9;
+  padding: 10px;
+  margin-right: 28px;
+  border-radius: 10px;
+  border: 2px solid rgb(245, 238, 238);
+  outline: none;
+}
+.Req-form > input::placeholder {
+  font-size: 1rem;
+}
+.Req-form > button {
+  flex: 4;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border-radius: 10px;
+  border: 3px solid #49c628;
+  box-shadow: rgba(132, 132, 245, 0.324) 0px 7px 29px 0px;
+}
+.Req-form > button:hover {
+  background-image: linear-gradient(135deg, #70f570 10%, #49c628 100%);
+  color: white;
+  cursor: pointer;
+}
+
+.request {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* border: 2px solid; */
+  padding: 10px;
+}
+.request > .note {
+  /* width: 50%; */
+  display: flex;
+  margin-bottom: 10px;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+.request > .note > p {
+  margin-right: 30px;
+  flex: 9;
+  text-align: justify;
+  border: 2px solid;
+  padding-left: 10px;
+  padding-block: 10px;
+  border-radius: 20px;
+  border: none;
+  /* border: 2px solid rgb(245, 238, 238); */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  /* background-image: linear-gradient(135deg, #209cff 10%, #68e0cf 100%); */
+  background-image: linear-gradient(135deg, #6b73ff 10%, #515af8 100%);
+
+  color: whitesmoke;
+}
+.add-button {
+  flex: 4;
+  padding: 8px;
+  font-size: 1rem;
+  margin-left: 3px;
+  border-radius: 10px;
+  border: 2px solid #515af8;
+  box-shadow: rgba(132, 132, 245, 0.324) 0px 7px 29px 0px;
+}
+.add-button:hover {
+  background-image: linear-gradient(135deg, #6b73ff 10%, #515af8 100%);
+
+  cursor: pointer;
+  color: whitesmoke;
+}

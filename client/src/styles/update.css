@@ -1,0 +1,41 @@
+.update>h2{
+    color: black;
+    font-size: 2.3rem;
+    margin-top: 20px;
+} 
+.update{
+    display: flex;
+    /* border: 2px solid; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.update>.Add-form{
+    margin-top: 10px;
+}
+.update>.Add-form>.text{
+    padding-inline: 32px;
+    margin: 0;
+    padding-block: 13px;
+    width: 290px;
+    transform: translateX(-4px);
+}
+.update>.Add-form>textarea{
+    padding-inline: 70px;
+    padding-block: 41px;
+    border-radius: 10px;
+    width: 257px;
+}
+
+.update>.Add-form>.file::-webkit-file-upload-button{
+    background-image: linear-gradient(-45deg, #cbe9ef, #4bb4e7, #0365ff); 
+    color: aliceblue;
+    cursor: pointer;
+    font-size:0.9rem;
+    padding-inline: 19px;
+    padding-block:7px ;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid  rgb(169, 247, 133);
+}

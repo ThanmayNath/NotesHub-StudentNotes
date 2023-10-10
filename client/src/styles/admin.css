@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* width: 100vw; */
+
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: start;
+}
+.adminH1 {
+  color: black;
+}
+.home > input {
+  /* border: 2px solid; */
+  border: 3px solid rgb(108, 108, 249);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.home > input::placeholder {
+  /* text-align: center;  */
+  padding-left: 20px;
+  font-size: 1.1rem;
+}
+
+.display1 {
+  /* border: 2px solid; */
+  /* height: 100%; */
+  /* width: 100%; */
+  display: flex;
+  justify-content: start;
+  row-gap: 14px;
+  margin-left: 17px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  /* padding: 3px;  */
+}
+.display1 > .notes1 {
+  box-shadow: rgb(0 0 0 / 5%) 0px 0px 0px 1px,
+    rgb(209 213 219) 0px 0px 0px 1px inset;
+  width: 606px;
+  margin-left: 37px;
+  margin-right: 47px;
+  margin-bottom: 17px;
+  padding-inline: 42px;
+  padding-block: 18px;
+  border-radius: 10px;
+  position: relative;
+  transition: 1s;
+  color: white;
+  background-image: linear-gradient(135deg, #6b73ff 10%, #515af8 100%);
+}
+.display1 > .notes1 > .card1 > .allowButton {
+  display: flex;
+  column-gap: 20px;
+  /* border: 2px solid; */
+}
+.display1 > .notes1:hover {
+  /* border: 2px solid; */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  transform: scale(1.1);
+}
+.display1 > .notes1 > .card1 {
+  display: flex;
+  align-items: center;
+}
+
+.display1 > .notes1 > .card1 {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-around;
+}
+.display1 > .notes1 > .card1 > h3 {
+  padding-bottom: 40px;
+}
+.display1 > .notes1 > .card1 > .allowButton > .pdfview {
+  color: #fff;
+  font-size: 1.6rem;
+}
+.display1 > .notes1 > .card1 > .allowButton > .pdfview:hover {
+  cursor: pointer;
+  color: #28f539;
+  /* background-image: linear-gradient(135deg, #9be15d 10%, #00e3ae 100%); */
+}
+.display1 > .notes1 > .card1 > .allowButton {
+  display: flex;
+  /* border: 2px solid; */
+  align-items: center;
+  font-size: 24px;
+}
+
+.display1 > .notes1 > .card1 > .allowButton > .done {
+  color: rgb(255, 252, 252);
+  font-size: 1.6rem;
+}
+.display1 > .notes1 > .card1 > .allowButton > .done:hover {
+  cursor: pointer;
+  color: #28f539;
+  /* background-image: linear-gradient(135deg, #9be15d 10%, #00e3ae 100%); */
+}
+
+.display1 > .notes1 > .card1 > .allowButton > .cancel:hover {
+  cursor: pointer;
+  color: red;
+  /* background-image: linear-gradient(135deg, #9be15d 10%, #00e3ae 100%); */
+}

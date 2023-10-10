@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.allCard {
+  /* border: 2px solid; */
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  /* 0396FF */
+}
+.logout {
+  position: absolute;
+  /* bottom:  0; */
+  top: 93px;
+  right: 0;
+  margin-right: 19px;
+  padding-inline: 23px;
+  padding-block: 8px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  border: 2px solid #ff0844;
+}
+.logout:hover {
+  background-image: linear-gradient(135deg, #ff0844 10%, #ffb199 100%);
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
+.notes {
+  background-image: linear-gradient(135deg, #6b73ff 10%, #515af8 100%);
+  color: white;
+  border: 2px solid rgb(212, 210, 210);
+  width: 300px;
+  /* height: 160px; */
+  border-radius: 10px;
+  position: relative;
+}
+
+.notes:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.notes > .note > h2 {
+  text-align: center;
+  margin-top: 10px;
+  /* margin-bottom: 30px; */
+}
+.notes > .note > h3 {
+  margin-bottom: 36px;
+  padding: 40px;
+  text-align: start;
+}
+.notes > .note > a {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10px;
+}
+.notes > .note > a:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.notes > .note > .delete {
+  position: absolute;
+  bottom: 0;
+  left: 79px;
+  margin-right: 19px;
+  padding-inline: 23px;
+  padding-block: 8px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  border: 3px solid #ff0844;
+}
+.notes > .note > .delete:hover {
+  background-image: linear-gradient(135deg, #ff0844 10%, #ffb199 100%);
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
+.notes > .note > .update {
+  margin-bottom: 10px;
+  margin-right: 19px;
+  padding-inline: 23px;
+  padding-block: 8px;
+  border-radius: 7px;
+  /* outline: none; */
+  position: absolute;
+  bottom: 0;
+  left: 187px;
+  border: 3px solid #3aa91b;
+}
+.notes > .note > .update:hover {
+  background-image: linear-gradient(135deg, #70f570 10%, #49c628 100%);
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+}
+.firstAnchor {
+  /*transform: translate(8px, 41px);
+  font-size: 1.3rem;
+  font-weight: 900;*/
+  color: whitesmoke;
+}

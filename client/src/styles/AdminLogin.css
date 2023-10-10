@@ -1,0 +1,54 @@
+.AdminForm {
+  border: 2px solid whitesmoke;
+  margin-top: 153px;
+  width: 25vw;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+.AdminForm > h2 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.adminPassword {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 39px;
+}
+.AdminForm > .adminPassword > .Password > input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #dadada;
+  padding: 10px;
+  cursor: text;
+  background-color: whitesmoke;
+}
+.AdminForm > .adminPassword > .Password > input:focus {
+  outline: none;
+}
+.AdminForm > .adminPassword > .Password > input > .animated-border {
+  height: 2px;
+  position: relative;
+  bottom: 21px;
+  width: 0%;
+  background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+.AdminForm > .adminPassword > .Password > input:focus ~ .animated-border {
+  width: 108%;
+}
+
+.adminPassword > button {
+  padding-inline: 74px;
+  padding-block: 9px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  font-size: 1.2rem;
+  background-image: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+  color: whitesmoke;
+  background-image: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+}
